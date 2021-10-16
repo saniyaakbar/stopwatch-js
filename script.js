@@ -1,5 +1,5 @@
 var start = document.querySelector("#pause");
-alert("hii")
+// alert("hii")
 var pause = document.querySelector("#stop");
     var count = 0;
     var count2 = 0;
@@ -10,6 +10,7 @@ var pause = document.querySelector("#stop");
     var saveTime3 = 0;
     var saveTime4 = 0;
     var flag = 0;
+    var list = document.querySelector("#demo")
 
     function startTime(){
 
@@ -62,6 +63,7 @@ function restartTime(){
         count4 = 0;
         flag = 0;
         document.querySelector("#time").textContent = `${count4} :${count3} : ${count2} : ${count}`;
+        list.innerHTML = "" 
         // startTime();
     })
     
