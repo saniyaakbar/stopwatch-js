@@ -1,4 +1,5 @@
 var start = document.querySelector("#pause");
+alert("hii")
 var pause = document.querySelector("#stop");
     var count = 0;
     var count2 = 0;
